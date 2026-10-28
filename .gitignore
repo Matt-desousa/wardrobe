@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+web/dist/
+
+# Local photos and datasets stay on the developer's machine
+ml/data/
+
+# Large generated artifacts (the small PoC exports in ml/exports are tracked)
+*.pt
+*.pth
